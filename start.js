@@ -17,7 +17,6 @@ const serverPort = 2172;
 /************* Routing **************/
 //웹페이지의 세부 주소를 지정한다.
 server.use('/',            require('./server'));
-server.use('/htyapi',         require('./htyapi'));
 server.use('/phjapi',         require('./phjapi'));
 server.use('/pskapi',         require('./pskapi'));
 server.use('/client',         require('./client'));
